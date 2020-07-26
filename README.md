@@ -1,18 +1,24 @@
 # What is UniEnv
 
-UniEnv help you to deal enviroment values such as password or token easily in Unity project while developing.　This Base idea is [dotnet-env](https://github.com/tonerdo/dotnet-env).
+UniEnv help you to get/set enviroment values such as password or token easily without hardcoding in Unity project while developing.　This Base idea is [dotnet-env](https://github.com/tonerdo/dotnet-env).
 
 ## Features
 
-- It works `only in Editor` to avoid product include env file
+- It works `only in Editor` to avoid that products include env file
 - Env object suggest that `writing env path to .gitignore`
-- You can write env settings directory as simple format texts
+- You can write env settings directory as simple format texts as following
+
+```
+Key1=Value1
+Key2=Value2
+Key3=Value3
+```
 
 ## How to Use
 
-1. Env.asset under Plugins/UniEnv
-2. Press `"+"` button to add new key value pair of enviroment values
-3. Call env value from script as following
+1. Open Env.asset under Plugins/UniEnv
+2. Press `"+"` button to add new key value pairs of enviroment values
+3. Get environment values from scripts as following
 
 ```cs
 public void ReadFormValue(){
