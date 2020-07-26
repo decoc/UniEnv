@@ -2,13 +2,15 @@
 
 UniEnv help you to get/set enviroment values such as password or token easily without hardcoding in Unity project while developing.　This Base idea is [dotnet-env](https://github.com/tonerdo/dotnet-env).
 
+![env](./Images/Env.png)
+
 ## Features
 
 - It works `only in Editor` to avoid that products include env file
 - Env object suggest that `writing env path to .gitignore`
 - You can write env settings directory as simple format texts as following
 
-```
+```.env
 Key1=Value1
 Key2=Value2
 Key3=Value3
