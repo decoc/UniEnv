@@ -23,6 +23,11 @@ namespace UniEnvs
         internal static void CreateAsset()
         {
             var obj = ScriptableObject.CreateInstance<UniEnv>();
+            var d = new FileInfo(Path).Directory;
+            if (!d.Exists)
+            {
+                d.Create();
+            }
             AssetDatabase.CreateAsset(obj, Path);
             EditorUtility.SetDirty (obj);
         }
