@@ -57,7 +57,7 @@ namespace UniEnvs
             showWarning = IsGitIgnoreExists() && !IsIgnoreEnvFile();
         }
 
-        private static string gitIgnorePath => "Assets/../.gitignore";
+        private static string gitIgnorePath => Path.Combine(Application.dataPath, "../.gitignore");
         private static string envPath => "Assets/Plugins/UniEnv/Env.asset";
         private static string envMetaPath => "Assets/Plugins/UniEnv/Env.asset.meta";
         
