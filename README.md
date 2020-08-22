@@ -1,6 +1,6 @@
 # What is UniEnv
 
-UniEnv help you to get/set enviroment values such as password or token easily without hardcoding in Unity project while developing.　This Base idea is [dotnet-env](https://github.com/tonerdo/dotnet-env).
+UniEnv help you to get/set environment values such as password or token easily without hard coding in Unity project while developing.　This Base idea is [dotnet-env](https://github.com/tonerdo/dotnet-env).
 
 ![env](./Images/Env.png)
 
