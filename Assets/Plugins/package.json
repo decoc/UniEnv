@@ -1,9 +1,9 @@
 {
   "name": "com.decoc.unienv",
   "displayName": "UniEnv",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "unity": "2018.4",
-  "description": "UniEnv help you to deal enviroment values such as password or token easily in Unity project while developing. This Base idea is dotnet-env.",
+  "description": "UniEnv help you to get/set environment values such as password or token easily without hard coding in Unity project while developing. This Base idea is dotnet-env.",
   "license": "MIT",
   "type": "tool"
 }
